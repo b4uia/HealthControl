@@ -5,7 +5,7 @@
     <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{98b3b9da-13d9-408d-a18b-40eeb576f8a8}</ProjectGuid>
+    <ProjectGuid>{98B3B9DA-13D9-408D-A18B-40EEB576F8A8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>HealthControl.PCL</RootNamespace>
@@ -36,7 +36,11 @@
     <!-- A reference to the entire .NET Framework is automatically included -->
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="auxiliares\alarme.cs" />
+    <Compile Include="auxiliares\contactos.cs" />
+    <Compile Include="auxiliares\sos.cs" />
+    <Compile Include="principais\medicamento.cs" />
+    <Compile Include="principais\perfil.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
@@ -47,5 +51,4 @@
   <Target Name="AfterBuild">
   </Target>
   -->
-
 </Project>

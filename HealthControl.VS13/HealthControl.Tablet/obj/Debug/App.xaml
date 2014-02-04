@@ -1,8 +1,6 @@
-﻿<Application
-    x:Class="HealthControl.Tablet.App"
-    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:HealthControl.Tablet">
-
+﻿<Application x:Class="HealthControl.Tablet.App" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="using:HealthControl.Tablet">
+  <Application.Resources>
+    <vm:ViewModelLocator x:Key="Locator" xmlns:vm="using:HealthControl.Tablet.ViewModel" />
+  </Application.Resources>
 </Application>
 

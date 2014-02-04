@@ -14,6 +14,7 @@ namespace HealthControl.PCL.Model
         public string Idade { get; set; }
         public string notas { get; set; }
         public sos Dados_SOS { get; set; }
+        public string Lang { get; set; }
         public List<contactos> Contactos { get; set; }
     }
 }
