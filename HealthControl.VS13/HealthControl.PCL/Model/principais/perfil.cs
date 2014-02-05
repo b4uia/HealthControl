@@ -1,10 +1,11 @@
-﻿using System;
+﻿using HealthControl.PCL.Model.Auxiliares;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HealthControl.PCL.Model
+namespace HealthControl.PCL.Model.Principais
 {
     public class perfil
     {

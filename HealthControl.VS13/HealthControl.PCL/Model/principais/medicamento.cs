@@ -1,9 +1,11 @@
-﻿using System;
+﻿using HealthControl.PCL.Model.Auxiliares;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace HealthControl.PCL
+
+namespace HealthControl.PCL.Model.Principais
 {
     public class medicamento
     {
@@ -11,11 +13,7 @@ namespace HealthControl.PCL
         public string Nome { get; set; }
         public string Prescricao { get; set; }
         public string Unidades { get; set; }
-        // número de dias até concluir a medicação
-        public int Dias { get; set; }
-        // exº de x em x horas
-        public int horaA { get; set; }
-        public int horaB { get; set; }
+        public toma Toma { get; set; }
         // definido automaticamente ou manualmente
         public List<alarme> Alarmes { get; set; }
     }

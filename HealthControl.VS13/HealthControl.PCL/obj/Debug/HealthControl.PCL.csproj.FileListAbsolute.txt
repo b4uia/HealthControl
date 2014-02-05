@@ -3,3 +3,8 @@ C:\Users\xico\Desktop\B4U\HealtControl\HealthControl.PCL\HealthControl.PCL\bin\D
 C:\Users\xico\Desktop\B4U\HealtControl\HealthControl.PCL\HealthControl.PCL\obj\Debug\HealthControl.PCL.csprojResolveAssemblyReference.cache
 C:\Users\xico\Desktop\B4U\HealtControl\HealthControl.PCL\HealthControl.PCL\obj\Debug\HealthControl.PCL.dll
 C:\Users\xico\Desktop\B4U\HealtControl\HealthControl.PCL\HealthControl.PCL\obj\Debug\HealthControl.PCL.pdb
+C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.PCL\obj\Debug\HealthControl.PCL.csprojResolveAssemblyReference.cache
+C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.PCL\obj\Debug\HealthControl.PCL.dll
+C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.PCL\obj\Debug\HealthControl.PCL.pdb
+C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.PCL\bin\Debug\HealthControl.PCL.dll
+C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.PCL\bin\Debug\HealthControl.PCL.pdb

@@ -36,11 +36,12 @@
     <!-- A reference to the entire .NET Framework is automatically included -->
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="auxiliares\alarme.cs" />
-    <Compile Include="auxiliares\contactos.cs" />
-    <Compile Include="auxiliares\sos.cs" />
-    <Compile Include="principais\medicamento.cs" />
-    <Compile Include="principais\perfil.cs" />
+    <Compile Include="Model\auxiliares\alarme.cs" />
+    <Compile Include="Model\auxiliares\contactos.cs" />
+    <Compile Include="Model\auxiliares\sos.cs" />
+    <Compile Include="Model\auxiliares\toma.cs" />
+    <Compile Include="Model\principais\medicamento.cs" />
+    <Compile Include="Model\principais\perfil.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
