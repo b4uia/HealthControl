@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HealthControl.PCL.Model.Auxiliares
 {
-    public class sos
+    public class Sos
     {
         public string mensagem { get; set; }
         public string latitude { get; set; }

@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>EFACECPC</Machine>
+    <WindowsUser>xico</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>73b1c893-c593-4445-9d3a-7cb4db976eaf</PackageIdentityName>
+    <RegisteredManifestChecksum>5DC831DB59757CE3EA91AD765E7CA953146FD420352A0BCC0E02EB54CF928498</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>73b1c893-c593-4445-9d3a-7cb4db976eaf_1.0.0.0_neutral__py3ef62y61jte</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>73b1c893-c593-4445-9d3a-7cb4db976eaf_py3ef62y61jte!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>73b1c893-c593-4445-9d3a-7cb4db976eaf</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=xico</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-02-07T12:39:00.211</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\bin\Debug\HealthControl.Tablet.exe">
+      <PackagePath>HealthControl.Tablet.exe</PackagePath>
+      <Modified>2014-02-07T12:58:17.428</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\packages\MvvmLightLibs.4.2.30.0\lib\netcore45\GalaSoft.MvvmLight.Extras.Win8.dll">
+      <PackagePath>GalaSoft.MvvmLight.Extras.Win8.dll</PackagePath>
+      <Modified>2014-02-04T22:21:51.694</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\packages\MvvmLightLibs.4.2.30.0\lib\netcore45\GalaSoft.MvvmLight.Win8.dll">
+      <PackagePath>GalaSoft.MvvmLight.Win8.dll</PackagePath>
+      <Modified>2014-02-04T22:21:51.708</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\packages\MvvmLightLibs.4.2.30.0\lib\netcore45\Microsoft.Practices.ServiceLocation.dll">
+      <PackagePath>Microsoft.Practices.ServiceLocation.dll</PackagePath>
+      <Modified>2014-02-04T22:21:51.722</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\packages\WinRTXamlToolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit.dll">
+      <PackagePath>WinRTXamlToolkit.dll</PackagePath>
+      <Modified>2014-02-04T22:23:08.249</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T06:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T06:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T06:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T06:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-02-07T12:55:12.785</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\bin\Debug\Controls\TimePicker\TimePicker.xbf">
+      <PackagePath>Controls\TimePicker\TimePicker.xbf</PackagePath>
+      <Modified>2014-02-07T12:58:17.240</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2014-02-07T09:08:50.738</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\bin\Debug\Views\PaginaAlarmes.xbf">
+      <PackagePath>Views\PaginaAlarmes.xbf</PackagePath>
+      <Modified>2014-02-07T12:38:59.529</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\packages\WinRTXamlToolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\AnimatingContainer.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\AnimatingContainer.xbf</PackagePath>
+      <Modified>2014-02-04T22:23:08.254</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\packages\WinRTXamlToolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\CascadingTextBlock.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\CascadingTextBlock.xbf</PackagePath>
+      <Modified>2014-02-04T22:23:08.261</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\packages\WinRTXamlToolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\CountdownControl.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\CountdownControl.xbf</PackagePath>
+      <Modified>2014-02-04T22:23:08.266</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\packages\WinRTXamlToolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\AlternativeFrame\AlternativeFrame.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\AlternativeFrame\AlternativeFrame.xbf</PackagePath>
+      <Modified>2014-02-04T22:23:08.253</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\packages\WinRTXamlToolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\CameraCaptureControl\CameraCaptureControl.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\CameraCaptureControl\CameraCaptureControl.xbf</PackagePath>
+      <Modified>2014-02-04T22:23:08.258</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\packages\WinRTXamlToolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\CascadingImageControl\CascadingImageControl.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\CascadingImageControl\CascadingImageControl.xbf</PackagePath>
+      <Modified>2014-02-04T22:23:08.260</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\packages\WinRTXamlToolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\ColorPicker\ColorPicker.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\ColorPicker\ColorPicker.xbf</PackagePath>
+      <Modified>2014-02-04T22:23:08.265</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\packages\WinRTXamlToolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\CustomAppBar\CustomAppBar.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\CustomAppBar\CustomAppBar.xbf</PackagePath>
+      <Modified>2014-02-04T22:23:08.268</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\packages\WinRTXamlToolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\CustomGridSplitter\CustomGridSplitter.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\CustomGridSplitter\CustomGridSplitter.xbf</PackagePath>
+      <Modified>2014-02-04T22:23:08.270</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\packages\WinRTXamlToolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\DelayedLoadControl\DelayedLoadControl.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\DelayedLoadControl\DelayedLoadControl.xbf</PackagePath>
+      <Modified>2014-02-04T22:23:08.272</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\packages\WinRTXamlToolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\FxContentControl\FxContentControl.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\FxContentControl\FxContentControl.xbf</PackagePath>
+      <Modified>2014-02-04T22:23:08.273</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\packages\WinRTXamlToolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\ImageButton\ImageButton.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\ImageButton\ImageButton.xbf</PackagePath>
+      <Modified>2014-02-04T22:23:08.277</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\packages\WinRTXamlToolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\ImageToggleButton\ImageToggleButton.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\ImageToggleButton\ImageToggleButton.xbf</PackagePath>
+      <Modified>2014-02-04T22:23:08.280</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\packages\WinRTXamlToolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\InputDialog\InputDialog.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\InputDialog\InputDialog.xbf</PackagePath>
+      <Modified>2014-02-04T22:23:08.291</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\packages\WinRTXamlToolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\ListItemButton\ListItemButton.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\ListItemButton\ListItemButton.xbf</PackagePath>
+      <Modified>2014-02-04T22:23:08.293</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\packages\WinRTXamlToolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\NumericUpDown\NumericUpDown.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\NumericUpDown\NumericUpDown.xbf</PackagePath>
+      <Modified>2014-02-04T22:23:08.297</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\packages\WinRTXamlToolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\TreeView\TreeView.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\TreeView\TreeView.xbf</PackagePath>
+      <Modified>2014-02-04T22:23:08.300</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\packages\WinRTXamlToolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\TreeView\TreeViewItem.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\TreeView\TreeViewItem.xbf</PackagePath>
+      <Modified>2014-02-04T22:23:08.304</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\packages\WinRTXamlToolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\TreeView\TreeViewMouse.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\TreeView\TreeViewMouse.xbf</PackagePath>
+      <Modified>2014-02-04T22:23:08.308</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\packages\WinRTXamlToolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\TreeView\TreeViewTouch.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\TreeView\TreeViewTouch.xbf</PackagePath>
+      <Modified>2014-02-04T22:23:08.312</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\packages\WinRTXamlToolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\WatermarkPasswordBox\WatermarkPasswordBox.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\WatermarkPasswordBox\WatermarkPasswordBox.xbf</PackagePath>
+      <Modified>2014-02-04T22:23:08.316</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\packages\WinRTXamlToolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\WatermarkTextBox\WatermarkTextBox.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\WatermarkTextBox\WatermarkTextBox.xbf</PackagePath>
+      <Modified>2014-02-04T22:23:08.321</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\packages\WinRTXamlToolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\WebBrowser\WebBrowser.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\WebBrowser\WebBrowser.xbf</PackagePath>
+      <Modified>2014-02-04T22:23:08.325</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\packages\WinRTXamlToolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Themes\Generic.xbf">
+      <PackagePath>WinRTXamlToolkit\Themes\Generic.xbf</PackagePath>
+      <Modified>2014-02-04T22:23:08.327</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-02-07T12:38:59.874</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

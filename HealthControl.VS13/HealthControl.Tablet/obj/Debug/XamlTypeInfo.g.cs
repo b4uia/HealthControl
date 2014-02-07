@@ -148,25 +148,41 @@ namespace HealthControl.Tablet.HealthControl_Tablet_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[8];
+            _typeNameTable = new string[16];
             _typeNameTable[0] = "HealthControl.Tablet.ViewModel.ViewModelLocator";
             _typeNameTable[1] = "Object";
             _typeNameTable[2] = "HealthControl.Tablet.ViewModel.MainViewModel";
             _typeNameTable[3] = "GalaSoft.MvvmLight.ViewModelBase";
             _typeNameTable[4] = "GalaSoft.MvvmLight.ObservableObject";
-            _typeNameTable[5] = "HealthControl.Tablet.MainPage";
-            _typeNameTable[6] = "Windows.UI.Xaml.Controls.Page";
+            _typeNameTable[5] = "HealthControl.Tablet.Controls.TimePicker.DoubleToText";
+            _typeNameTable[6] = "HealthControl.Tablet.Controls.TimePicker.TimePicker";
             _typeNameTable[7] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable[8] = "Double";
+            _typeNameTable[9] = "String";
+            _typeNameTable[10] = "HealthControl.Tablet.MainPage";
+            _typeNameTable[11] = "Windows.UI.Xaml.Controls.Page";
+            _typeNameTable[12] = "HealthControl.Tablet.PaginaAlarmes";
+            _typeNameTable[13] = "HealthControl_Tablet.Common.ObservableDictionary";
+            _typeNameTable[14] = "HealthControl_Tablet.Common.NavigationHelper";
+            _typeNameTable[15] = "Windows.UI.Xaml.DependencyObject";
 
-            _typeTable = new global::System.Type[8];
+            _typeTable = new global::System.Type[16];
             _typeTable[0] = typeof(global::HealthControl.Tablet.ViewModel.ViewModelLocator);
             _typeTable[1] = typeof(global::System.Object);
             _typeTable[2] = typeof(global::HealthControl.Tablet.ViewModel.MainViewModel);
             _typeTable[3] = typeof(global::GalaSoft.MvvmLight.ViewModelBase);
             _typeTable[4] = typeof(global::GalaSoft.MvvmLight.ObservableObject);
-            _typeTable[5] = typeof(global::HealthControl.Tablet.MainPage);
-            _typeTable[6] = typeof(global::Windows.UI.Xaml.Controls.Page);
+            _typeTable[5] = typeof(global::HealthControl.Tablet.Controls.TimePicker.DoubleToText);
+            _typeTable[6] = typeof(global::HealthControl.Tablet.Controls.TimePicker.TimePicker);
             _typeTable[7] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable[8] = typeof(global::System.Double);
+            _typeTable[9] = typeof(global::System.String);
+            _typeTable[10] = typeof(global::HealthControl.Tablet.MainPage);
+            _typeTable[11] = typeof(global::Windows.UI.Xaml.Controls.Page);
+            _typeTable[12] = typeof(global::HealthControl.Tablet.PaginaAlarmes);
+            _typeTable[13] = typeof(global::HealthControl_Tablet.Common.ObservableDictionary);
+            _typeTable[14] = typeof(global::HealthControl_Tablet.Common.NavigationHelper);
+            _typeTable[15] = typeof(global::Windows.UI.Xaml.DependencyObject);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -204,7 +220,18 @@ namespace HealthControl.Tablet.HealthControl_Tablet_XamlTypeInfo
         private object Activate_0_ViewModelLocator() { return new global::HealthControl.Tablet.ViewModel.ViewModelLocator(); }
         private object Activate_2_MainViewModel() { return new global::HealthControl.Tablet.ViewModel.MainViewModel(); }
         private object Activate_4_ObservableObject() { return new global::GalaSoft.MvvmLight.ObservableObject(); }
-        private object Activate_5_MainPage() { return new global::HealthControl.Tablet.MainPage(); }
+        private object Activate_5_DoubleToText() { return new global::HealthControl.Tablet.Controls.TimePicker.DoubleToText(); }
+        private object Activate_6_TimePicker() { return new global::HealthControl.Tablet.Controls.TimePicker.TimePicker(); }
+        private object Activate_10_MainPage() { return new global::HealthControl.Tablet.MainPage(); }
+        private object Activate_12_PaginaAlarmes() { return new global::HealthControl.Tablet.PaginaAlarmes(); }
+        private object Activate_13_ObservableDictionary() { return new global::HealthControl_Tablet.Common.ObservableDictionary(); }
+        private void MapAdd_13_ObservableDictionary(object instance, object key, object item)
+        {
+            var collection = (global::System.Collections.Generic.IDictionary<global::System.String, global::System.Object>)instance;
+            var newKey = (global::System.String)key;
+            var newItem = (global::System.Object)item;
+            collection.Add(newKey, newItem);
+        }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -244,17 +271,67 @@ namespace HealthControl.Tablet.HealthControl_Tablet_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 5:   //  HealthControl.Tablet.MainPage
-                userType = new global::HealthControl.Tablet.HealthControl_Tablet_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_5_MainPage;
+            case 5:   //  HealthControl.Tablet.Controls.TimePicker.DoubleToText
+                userType = new global::HealthControl.Tablet.HealthControl_Tablet_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_5_DoubleToText;
                 xamlType = userType;
                 break;
 
-            case 6:   //  Windows.UI.Xaml.Controls.Page
-                xamlType = new global::HealthControl.Tablet.HealthControl_Tablet_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+            case 6:   //  HealthControl.Tablet.Controls.TimePicker.TimePicker
+                userType = new global::HealthControl.Tablet.HealthControl_Tablet_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
+                userType.Activator = Activate_6_TimePicker;
+                userType.AddMemberName("Value1");
+                userType.AddMemberName("Value2");
+                userType.AddMemberName("Maxvalue1");
+                userType.AddMemberName("Maxvalue2");
+                userType.AddMemberName("Value1String");
+                xamlType = userType;
                 break;
 
             case 7:   //  Windows.UI.Xaml.Controls.UserControl
+                xamlType = new global::HealthControl.Tablet.HealthControl_Tablet_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 8:   //  Double
+                xamlType = new global::HealthControl.Tablet.HealthControl_Tablet_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 9:   //  String
+                xamlType = new global::HealthControl.Tablet.HealthControl_Tablet_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 10:   //  HealthControl.Tablet.MainPage
+                userType = new global::HealthControl.Tablet.HealthControl_Tablet_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_10_MainPage;
+                xamlType = userType;
+                break;
+
+            case 11:   //  Windows.UI.Xaml.Controls.Page
+                xamlType = new global::HealthControl.Tablet.HealthControl_Tablet_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 12:   //  HealthControl.Tablet.PaginaAlarmes
+                userType = new global::HealthControl.Tablet.HealthControl_Tablet_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_12_PaginaAlarmes;
+                userType.AddMemberName("DefaultViewModel");
+                userType.AddMemberName("NavigationHelper");
+                xamlType = userType;
+                break;
+
+            case 13:   //  HealthControl_Tablet.Common.ObservableDictionary
+                userType = new global::HealthControl.Tablet.HealthControl_Tablet_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.DictionaryAdd = MapAdd_13_ObservableDictionary;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 14:   //  HealthControl_Tablet.Common.NavigationHelper
+                userType = new global::HealthControl.Tablet.HealthControl_Tablet_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 15:   //  Windows.UI.Xaml.DependencyObject
                 xamlType = new global::HealthControl.Tablet.HealthControl_Tablet_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
             }
@@ -320,6 +397,61 @@ namespace HealthControl.Tablet.HealthControl_Tablet_XamlTypeInfo
             var that = (global::HealthControl.Tablet.ViewModel.ViewModelLocator)instance;
             return that.Main;
         }
+        private object get_1_TimePicker_Value1(object instance)
+        {
+            var that = (global::HealthControl.Tablet.Controls.TimePicker.TimePicker)instance;
+            return that.Value1;
+        }
+        private void set_1_TimePicker_Value1(object instance, object Value)
+        {
+            var that = (global::HealthControl.Tablet.Controls.TimePicker.TimePicker)instance;
+            that.Value1 = (global::System.Double)Value;
+        }
+        private object get_2_TimePicker_Value2(object instance)
+        {
+            var that = (global::HealthControl.Tablet.Controls.TimePicker.TimePicker)instance;
+            return that.Value2;
+        }
+        private void set_2_TimePicker_Value2(object instance, object Value)
+        {
+            var that = (global::HealthControl.Tablet.Controls.TimePicker.TimePicker)instance;
+            that.Value2 = (global::System.Double)Value;
+        }
+        private object get_3_TimePicker_Maxvalue1(object instance)
+        {
+            var that = (global::HealthControl.Tablet.Controls.TimePicker.TimePicker)instance;
+            return that.Maxvalue1;
+        }
+        private void set_3_TimePicker_Maxvalue1(object instance, object Value)
+        {
+            var that = (global::HealthControl.Tablet.Controls.TimePicker.TimePicker)instance;
+            that.Maxvalue1 = (global::System.Double)Value;
+        }
+        private object get_4_TimePicker_Maxvalue2(object instance)
+        {
+            var that = (global::HealthControl.Tablet.Controls.TimePicker.TimePicker)instance;
+            return that.Maxvalue2;
+        }
+        private void set_4_TimePicker_Maxvalue2(object instance, object Value)
+        {
+            var that = (global::HealthControl.Tablet.Controls.TimePicker.TimePicker)instance;
+            that.Maxvalue2 = (global::System.Double)Value;
+        }
+        private object get_5_TimePicker_Value1String(object instance)
+        {
+            var that = (global::HealthControl.Tablet.Controls.TimePicker.TimePicker)instance;
+            return that.Value1String;
+        }
+        private object get_6_PaginaAlarmes_DefaultViewModel(object instance)
+        {
+            var that = (global::HealthControl.Tablet.PaginaAlarmes)instance;
+            return that.DefaultViewModel;
+        }
+        private object get_7_PaginaAlarmes_NavigationHelper(object instance)
+        {
+            var that = (global::HealthControl.Tablet.PaginaAlarmes)instance;
+            return that.NavigationHelper;
+        }
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
         {
@@ -332,6 +464,48 @@ namespace HealthControl.Tablet.HealthControl_Tablet_XamlTypeInfo
                 userType = (global::HealthControl.Tablet.HealthControl_Tablet_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HealthControl.Tablet.ViewModel.ViewModelLocator");
                 xamlMember = new global::HealthControl.Tablet.HealthControl_Tablet_XamlTypeInfo.XamlMember(this, "Main", "HealthControl.Tablet.ViewModel.MainViewModel");
                 xamlMember.Getter = get_0_ViewModelLocator_Main;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "HealthControl.Tablet.Controls.TimePicker.TimePicker.Value1":
+                userType = (global::HealthControl.Tablet.HealthControl_Tablet_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HealthControl.Tablet.Controls.TimePicker.TimePicker");
+                xamlMember = new global::HealthControl.Tablet.HealthControl_Tablet_XamlTypeInfo.XamlMember(this, "Value1", "Double");
+                xamlMember.Getter = get_1_TimePicker_Value1;
+                xamlMember.Setter = set_1_TimePicker_Value1;
+                break;
+            case "HealthControl.Tablet.Controls.TimePicker.TimePicker.Value2":
+                userType = (global::HealthControl.Tablet.HealthControl_Tablet_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HealthControl.Tablet.Controls.TimePicker.TimePicker");
+                xamlMember = new global::HealthControl.Tablet.HealthControl_Tablet_XamlTypeInfo.XamlMember(this, "Value2", "Double");
+                xamlMember.Getter = get_2_TimePicker_Value2;
+                xamlMember.Setter = set_2_TimePicker_Value2;
+                break;
+            case "HealthControl.Tablet.Controls.TimePicker.TimePicker.Maxvalue1":
+                userType = (global::HealthControl.Tablet.HealthControl_Tablet_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HealthControl.Tablet.Controls.TimePicker.TimePicker");
+                xamlMember = new global::HealthControl.Tablet.HealthControl_Tablet_XamlTypeInfo.XamlMember(this, "Maxvalue1", "Double");
+                xamlMember.Getter = get_3_TimePicker_Maxvalue1;
+                xamlMember.Setter = set_3_TimePicker_Maxvalue1;
+                break;
+            case "HealthControl.Tablet.Controls.TimePicker.TimePicker.Maxvalue2":
+                userType = (global::HealthControl.Tablet.HealthControl_Tablet_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HealthControl.Tablet.Controls.TimePicker.TimePicker");
+                xamlMember = new global::HealthControl.Tablet.HealthControl_Tablet_XamlTypeInfo.XamlMember(this, "Maxvalue2", "Double");
+                xamlMember.Getter = get_4_TimePicker_Maxvalue2;
+                xamlMember.Setter = set_4_TimePicker_Maxvalue2;
+                break;
+            case "HealthControl.Tablet.Controls.TimePicker.TimePicker.Value1String":
+                userType = (global::HealthControl.Tablet.HealthControl_Tablet_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HealthControl.Tablet.Controls.TimePicker.TimePicker");
+                xamlMember = new global::HealthControl.Tablet.HealthControl_Tablet_XamlTypeInfo.XamlMember(this, "Value1String", "String");
+                xamlMember.Getter = get_5_TimePicker_Value1String;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "HealthControl.Tablet.PaginaAlarmes.DefaultViewModel":
+                userType = (global::HealthControl.Tablet.HealthControl_Tablet_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HealthControl.Tablet.PaginaAlarmes");
+                xamlMember = new global::HealthControl.Tablet.HealthControl_Tablet_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "HealthControl_Tablet.Common.ObservableDictionary");
+                xamlMember.Getter = get_6_PaginaAlarmes_DefaultViewModel;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "HealthControl.Tablet.PaginaAlarmes.NavigationHelper":
+                userType = (global::HealthControl.Tablet.HealthControl_Tablet_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HealthControl.Tablet.PaginaAlarmes");
+                xamlMember = new global::HealthControl.Tablet.HealthControl_Tablet_XamlTypeInfo.XamlMember(this, "NavigationHelper", "HealthControl_Tablet.Common.NavigationHelper");
+                xamlMember.Getter = get_7_PaginaAlarmes_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
             }

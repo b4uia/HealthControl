@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HealthControl.PCL.Model.Auxiliares
 {
-    public class alarme
+    public class Alarme
     {
         public Guid Id { get; set; }
         public string   Titulo { get; set; }

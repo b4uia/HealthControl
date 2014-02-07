@@ -49,3 +49,13 @@ C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\o
 C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\obj\Debug\Microsoft.Practices.ServiceLocation.pri.xml
 C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\obj\Debug\WinRTXamlToolkit.pri.xml
 C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\obj\Debug\ProjectArchitectures.txt
+C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\bin\Debug\Controls\TimePicker\TimePicker.xbf
+C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\obj\Debug\Controls\TimePicker\TimePicker.g.i.cs
+C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\obj\Debug\Controls\TimePicker\TimePicker.g.cs
+C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\obj\Debug\Controls\TimePicker\TimePicker.xaml
+C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\obj\Debug\Controls\TimePicker\TimePicker.xbf
+C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\bin\Debug\Views\PaginaAlarmes.xbf
+C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\obj\Debug\Views\PaginaAlarmes.g.i.cs
+C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\obj\Debug\Views\PaginaAlarmes.g.cs
+C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\obj\Debug\Views\PaginaAlarmes.xaml
+C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\obj\Debug\Views\PaginaAlarmes.xbf

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HealthControl.PCL.Model.Auxiliares
 {
-    public class contactos
+    public class Contactos
     {
         public string nome { get; set; }
         public string telefone { get; set; }

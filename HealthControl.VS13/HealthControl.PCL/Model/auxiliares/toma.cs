@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HealthControl.PCL.Model.Auxiliares
 {
-   public  class toma
+   public  class Toma
     {
         // número de dias até concluir a medicação
         public int Dias { get; set; }
