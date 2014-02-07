@@ -1,14 +1,13 @@
-﻿
-
-using System;
-using GalaSoft.MvvmLight;
+﻿using Windows.UI.Xaml;
 
 namespace  HealthControl.Tablet.Controls.TimePicker
 {
    
     public sealed partial class TimePicker 
     {
-        private double _value1 = 1;
+        public string Value1Label { get; set; }
+
+        public string Value2Label { get; set; }
 
         public double Value1 { get; set; }
 
@@ -18,17 +17,12 @@ namespace  HealthControl.Tablet.Controls.TimePicker
 
         public double Maxvalue2 { get; set; }
 
-        public string Value1String {
-            get
-            {
-                return string.Format("{0:00}",_value1);   
-            } 
-        }
-
         public TimePicker()
         {
-            this.InitializeComponent();
+            InitializeComponent();
+
             DataContext = this;
         }
+
     }
 }

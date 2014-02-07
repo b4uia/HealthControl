@@ -114,9 +114,6 @@
     <Compile Include="Controls\TimePicker\TimePicker.xaml.cs">
       <DependentUpon>TimePicker.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MainPage.xaml.cs">
-      <DependentUpon>MainPage.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="ViewModel\ViewModelLocator.cs" />
@@ -147,10 +144,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="MainPage.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
     <Page Include="Views\PaginaAlarmes.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -172,6 +165,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Flyouts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HealthControl.PCL\HealthControl.PCL.csproj">
+      <Project>{98b3b9da-13d9-408d-a18b-40eeb576f8a8}</Project>
+      <Name>HealthControl.PCL</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
     <VisualStudioVersion>12.0</VisualStudioVersion>

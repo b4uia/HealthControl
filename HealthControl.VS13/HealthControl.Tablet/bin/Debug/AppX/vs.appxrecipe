@@ -17,13 +17,13 @@
     <AppXManifest Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-02-07T12:39:00.211</Modified>
+      <Modified>2014-02-07T16:38:01.026</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\bin\Debug\HealthControl.Tablet.exe">
       <PackagePath>HealthControl.Tablet.exe</PackagePath>
-      <Modified>2014-02-07T13:07:46.413</Modified>
+      <Modified>2014-02-07T19:43:33.713</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\packages\MvvmLightLibs.4.2.30.0\lib\netcore45\GalaSoft.MvvmLight.Extras.Win8.dll">
       <PackagePath>GalaSoft.MvvmLight.Extras.Win8.dll</PackagePath>
@@ -32,6 +32,10 @@
     <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\packages\MvvmLightLibs.4.2.30.0\lib\netcore45\GalaSoft.MvvmLight.Win8.dll">
       <PackagePath>GalaSoft.MvvmLight.Win8.dll</PackagePath>
       <Modified>2014-02-04T22:21:51.708</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.PCL\bin\Debug\HealthControl.PCL.dll">
+      <PackagePath>HealthControl.PCL.dll</PackagePath>
+      <Modified>2014-02-07T15:58:21.857</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\packages\MvvmLightLibs.4.2.30.0\lib\netcore45\Microsoft.Practices.ServiceLocation.dll">
       <PackagePath>Microsoft.Practices.ServiceLocation.dll</PackagePath>
@@ -63,19 +67,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2014-02-07T13:07:46.214</Modified>
+      <Modified>2014-02-07T19:35:03.196</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\bin\Debug\Controls\TimePicker\TimePicker.xbf">
       <PackagePath>Controls\TimePicker\TimePicker.xbf</PackagePath>
-      <Modified>2014-02-07T13:07:46.217</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\bin\Debug\MainPage.xbf">
-      <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2014-02-07T09:08:50.738</Modified>
+      <Modified>2014-02-07T19:35:03.199</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\bin\Debug\Views\PaginaAlarmes.xbf">
       <PackagePath>Views\PaginaAlarmes.xbf</PackagePath>
-      <Modified>2014-02-07T13:07:46.220</Modified>
+      <Modified>2014-02-07T19:43:33.322</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\packages\WinRTXamlToolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\AnimatingContainer.xbf">
       <PackagePath>WinRTXamlToolkit\Controls\AnimatingContainer.xbf</PackagePath>
@@ -175,7 +175,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-02-07T12:38:59.874</Modified>
+      <Modified>2014-02-07T16:38:00.726</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

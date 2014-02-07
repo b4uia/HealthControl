@@ -1,5 +1,4 @@
 C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\bin\Debug\App.xbf
-C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\bin\Debug\MainPage.xbf
 C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\bin\Debug\HealthControl.Tablet.exe
 C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\bin\Debug\HealthControl.Tablet.pdb
 C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\bin\Debug\resources.pri
@@ -22,13 +21,9 @@ C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\b
 C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\obj\Debug\HealthControl.Tablet.csprojResolveAssemblyReference.cache
 C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\obj\Debug\App.g.i.cs
 C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\obj\Debug\App.g.cs
-C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\obj\Debug\MainPage.g.i.cs
-C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\obj\Debug\MainPage.g.cs
 C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\obj\Debug\XamlTypeInfo.g.cs
 C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\obj\Debug\App.xaml
-C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\obj\Debug\MainPage.xaml
 C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\obj\Debug\App.xbf
-C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\obj\Debug\MainPage.xbf
 C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\obj\Debug\XamlSaveStateFile.xml
 C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\obj\Debug\HealthControl.Tablet.exe
 C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\obj\Debug\HealthControl.Tablet.pdb
@@ -59,3 +54,11 @@ C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\o
 C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\obj\Debug\Views\PaginaAlarmes.g.cs
 C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\obj\Debug\Views\PaginaAlarmes.xaml
 C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\obj\Debug\Views\PaginaAlarmes.xbf
+C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\bin\Debug\HealthControl.PCL.dll
+C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\bin\Debug\HealthControl.PCL.pdb
+C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\bin\Debug\Fonts\Omnes Hairline.otf
+C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\bin\Debug\Fonts\Omnes Light.otf
+C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\bin\Debug\Fonts\Omnes MediumItalic.otf
+C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\bin\Debug\Fonts\Omnes Semibold.otf
+C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\bin\Debug\Fonts\Omnes Thin.otf
+C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\bin\Debug\Fonts\Omnes.otf

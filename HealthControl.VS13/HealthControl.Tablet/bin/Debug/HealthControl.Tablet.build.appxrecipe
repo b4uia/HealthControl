@@ -23,6 +23,9 @@
     <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\packages\MvvmLightLibs.4.2.30.0\lib\netcore45\GalaSoft.MvvmLight.Win8.dll">
       <PackagePath>GalaSoft.MvvmLight.Win8.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.PCL\bin\Debug\HealthControl.PCL.dll">
+      <PackagePath>HealthControl.PCL.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\packages\MvvmLightLibs.4.2.30.0\lib\netcore45\Microsoft.Practices.ServiceLocation.dll">
       <PackagePath>Microsoft.Practices.ServiceLocation.dll</PackagePath>
     </AppxPackagedFile>
@@ -50,9 +53,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\bin\Debug\Controls\TimePicker\TimePicker.xbf">
       <PackagePath>Controls\TimePicker\TimePicker.xbf</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\bin\Debug\MainPage.xbf">
-      <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\bin\Debug\Views\PaginaAlarmes.xbf">
       <PackagePath>Views\PaginaAlarmes.xbf</PackagePath>

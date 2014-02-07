@@ -8,3 +8,9 @@ C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.PCL\obj\
 C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.PCL\obj\Debug\HealthControl.PCL.pdb
 C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.PCL\bin\Debug\HealthControl.PCL.dll
 C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.PCL\bin\Debug\HealthControl.PCL.pdb
+C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.PCL\bin\Debug\Fonts\Omnes Hairline.otf
+C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.PCL\bin\Debug\Fonts\Omnes Light.otf
+C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.PCL\bin\Debug\Fonts\Omnes MediumItalic.otf
+C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.PCL\bin\Debug\Fonts\Omnes Semibold.otf
+C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.PCL\bin\Debug\Fonts\Omnes Thin.otf
+C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.PCL\bin\Debug\Fonts\Omnes.otf

@@ -3,9 +3,9 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-  xmlns:local="using:HealthControl.Tablet.Controls.TimePicker"
+  xmlns:local="using:HealthControl.Tablet.Controls.TimePicker" x:Name="userControl"
   x:Class="HealthControl.Tablet.Controls.TimePicker.TimePicker"
-    mc:Ignorable="d" Width="328" Height="204" d:LayoutOverrides="Height">
+    mc:Ignorable="d" Width="192.667" Height="147">
     <UserControl.Resources>
         <local:DoubleToText x:Key="DoubleToText1"/>
         <local:DoubleToText x:Key="DoubleToText"/>
@@ -45,7 +45,11 @@
                                     <VisualState x:Name="Pressed">
                                         <Storyboard>
                                             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Fill" Storyboard.TargetName="HorizontalDecreaseRect">
-                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Gray"/>
+                                                <DiscreteObjectKeyFrame KeyTime="0">
+                                                    <DiscreteObjectKeyFrame.Value>
+                                                        <SolidColorBrush Color="#FF9BCF78"/>
+                                                    </DiscreteObjectKeyFrame.Value>
+                                                </DiscreteObjectKeyFrame>
                                             </ObjectAnimationUsingKeyFrames>
                                             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Fill" Storyboard.TargetName="HorizontalTrackRect">
                                                 <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource SliderTrackPressedBackgroundThemeBrush}"/>
@@ -163,14 +167,22 @@
                                         <RowDefinition Height="32"/>
                                     </Grid.RowDefinitions>
                                     <Rectangle x:Name="HorizontalTrackRect" Grid.ColumnSpan="3" Fill="{TemplateBinding Background}" Grid.Row="1"/>
-                                    <Rectangle x:Name="HorizontalDecreaseRect" Fill="{TemplateBinding Foreground}" Grid.Row="1" Grid.ColumnSpan="2" Margin="0,0,2,0"/>
-                                    <TickBar x:Name="TopTickBar" Grid.ColumnSpan="3" Fill="{ThemeResource SliderTickmarkOutsideBackgroundThemeBrush}" Height="{ThemeResource SliderOutsideTickBarThemeHeight}" Margin="0,-2,0,2" Visibility="Collapsed" VerticalAlignment="Bottom"/>
-                                    <TickBar x:Name="HorizontalInlineTickBar" Grid.ColumnSpan="3" Fill="{ThemeResource SliderTickMarkInlineBackgroundThemeBrush}" Grid.Row="1" Visibility="Collapsed" Margin="0,1,0,0"/>
-                                    <TickBar x:Name="BottomTickBar" Grid.ColumnSpan="3" Fill="{ThemeResource SliderTickmarkOutsideBackgroundThemeBrush}" Height="{ThemeResource SliderOutsideTickBarThemeHeight}" Margin="0,2,0,0" Grid.Row="2" Visibility="Collapsed" VerticalAlignment="Top"/>
+                                    <Rectangle x:Name="HorizontalDecreaseRect" Fill="{TemplateBinding Foreground}" Grid.Row="1" Grid.ColumnSpan="2"
+                                               Grid.Column="0" Margin="0,0,2,0"/>
+                                    <TickBar x:Name="TopTickBar" Grid.Row="0" Grid.ColumnSpan="3" Grid.Column="0"
+                                             Fill="{ThemeResource SliderTickmarkOutsideBackgroundThemeBrush}" Height="{ThemeResource SliderOutsideTickBarThemeHeight}" Margin="0,-2,0,2" Visibility="Collapsed" VerticalAlignment="Bottom"/>
+                                    <TickBar x:Name="HorizontalInlineTickBar" Grid.ColumnSpan="3" Grid.Column="0"
+                                             Fill="{ThemeResource SliderTickMarkInlineBackgroundThemeBrush}" Grid.Row="1" Visibility="Collapsed" Margin="0,1,0,0"/>
+                                    <TickBar x:Name="BottomTickBar" Grid.ColumnSpan="3" Grid.Column="0"
+                                             Fill="{ThemeResource SliderTickmarkOutsideBackgroundThemeBrush}" Height="{ThemeResource SliderOutsideTickBarThemeHeight}" Margin="0,2,0,0" Grid.Row="2" Visibility="Collapsed" VerticalAlignment="Top"/>
                                     <Thumb x:Name="HorizontalThumb" AutomationProperties.AccessibilityView="Raw" Background="Gray" Grid.Column="1" DataContext="{TemplateBinding Value}" Grid.Row="1" Style="{StaticResource SliderThumbStyle}" Margin="0,1,0,0" BorderBrush="Gray" Width="40" HorizontalAlignment="Right"/>
-                                    <Rectangle x:Name="HorizontalBorder" Grid.ColumnSpan="3" Grid.Row="1" Stroke="{TemplateBinding BorderBrush}" StrokeThickness="{TemplateBinding BorderThickness}"/>
-                                    <Rectangle x:Name="FocusVisualWhiteHorizontal" Grid.ColumnSpan="3" IsHitTestVisible="False" Opacity="0" Grid.RowSpan="3" StrokeDashOffset="1.5" StrokeEndLineCap="Square" Stroke="{ThemeResource FocusVisualWhiteStrokeThemeBrush}" StrokeDashArray="1,1"/>
-                                    <Rectangle x:Name="FocusVisualBlackHorizontal" Grid.ColumnSpan="3" IsHitTestVisible="False" Opacity="0" Grid.RowSpan="3" StrokeDashOffset="0.5" StrokeEndLineCap="Square" Stroke="Gray" StrokeDashArray="1,1"/>
+                                    <Rectangle x:Name="HorizontalBorder" Grid.ColumnSpan="3" Grid.Column="0" Grid.Row="1" Stroke="{TemplateBinding BorderBrush}" StrokeThickness="{TemplateBinding BorderThickness}"/>
+                                    <Rectangle x:Name="FocusVisualWhiteHorizontal" Grid.ColumnSpan="3" Grid.Column="0"
+                                               IsHitTestVisible="False" Opacity="0"
+                                               Grid.Row="0" Grid.RowSpan="3" StrokeDashOffset="1.5" StrokeEndLineCap="Square" Stroke="{ThemeResource FocusVisualWhiteStrokeThemeBrush}" StrokeDashArray="1,1"/>
+                                    <Rectangle x:Name="FocusVisualBlackHorizontal" Grid.ColumnSpan="3" Grid.Column="0"
+                                               IsHitTestVisible="False" Opacity="0"
+                                               Grid.Row="0" Grid.RowSpan="3" StrokeDashOffset="0.5" StrokeEndLineCap="Square" Stroke="Gray" StrokeDashArray="1,1"/>
                                 </Grid>
                                 <Grid x:Name="VerticalTemplate" Visibility="Collapsed">
                                     <Grid.ColumnDefinitions>
@@ -185,13 +197,21 @@
                                     </Grid.RowDefinitions>
                                     <Rectangle x:Name="VerticalTrackRect" Grid.Column="1" Fill="{TemplateBinding Background}" Grid.RowSpan="3"/>
                                     <Rectangle x:Name="VerticalDecreaseRect" Grid.Column="1" Fill="{TemplateBinding Foreground}" Grid.Row="2"/>
-                                    <TickBar x:Name="LeftTickBar" Fill="{ThemeResource SliderTickmarkOutsideBackgroundThemeBrush}" HorizontalAlignment="Right" Margin="0,0,2,0" Grid.RowSpan="3" Visibility="Collapsed" Width="{ThemeResource SliderOutsideTickBarThemeHeight}"/>
-                                    <TickBar x:Name="VerticalInlineTickBar" Grid.Column="1" Fill="{ThemeResource SliderTickMarkInlineBackgroundThemeBrush}" Grid.RowSpan="3" Visibility="Collapsed" Width="{ThemeResource SliderTrackThemeHeight}"/>
-                                    <TickBar x:Name="RightTickBar" Grid.Column="2" Fill="{ThemeResource SliderTickmarkOutsideBackgroundThemeBrush}" HorizontalAlignment="Left" Margin="2,0,0,0" Grid.RowSpan="3" Visibility="Collapsed" Width="{ThemeResource SliderOutsideTickBarThemeHeight}"/>
-                                    <Thumb x:Name="VerticalThumb" AutomationProperties.AccessibilityView="Raw" Background="{ThemeResource SliderThumbBackgroundThemeBrush}" Grid.Column="1" DataContext="{TemplateBinding Value}" Height="{ThemeResource SliderTrackThemeHeight}" Grid.Row="1" Style="{StaticResource SliderThumbStyle}" Width="{ThemeResource SliderTrackThemeHeight}"/>
-                                    <Rectangle x:Name="VerticalBorder" Grid.Column="1" Grid.RowSpan="3" Stroke="{TemplateBinding BorderBrush}" StrokeThickness="{TemplateBinding BorderThickness}"/>
-                                    <Rectangle x:Name="FocusVisualWhiteVertical" Grid.ColumnSpan="3" IsHitTestVisible="False" Opacity="0" Grid.RowSpan="3" StrokeDashOffset="1.5" StrokeEndLineCap="Square" Stroke="{ThemeResource FocusVisualWhiteStrokeThemeBrush}" StrokeDashArray="1,1"/>
-                                    <Rectangle x:Name="FocusVisualBlackVertical" Grid.ColumnSpan="3" IsHitTestVisible="False" Opacity="0" Grid.RowSpan="3" StrokeDashOffset="0.5" StrokeEndLineCap="Square" Stroke="{ThemeResource FocusVisualBlackStrokeThemeBrush}" StrokeDashArray="1,1"/>
+                                    <TickBar x:Name="LeftTickBar" Fill="{ThemeResource SliderTickmarkOutsideBackgroundThemeBrush}" HorizontalAlignment="Right" Margin="0,0,2,0"
+                                             Grid.Row="0" Grid.RowSpan="3" Grid.Column="0" Visibility="Collapsed" Width="{ThemeResource SliderOutsideTickBarThemeHeight}"/>
+                                    <TickBar x:Name="VerticalInlineTickBar" Grid.Column="1" Fill="{ThemeResource SliderTickMarkInlineBackgroundThemeBrush}"
+                                             Grid.Row="0" Grid.RowSpan="3" Visibility="Collapsed" Width="{ThemeResource SliderTrackThemeHeight}"/>
+                                    <TickBar x:Name="RightTickBar" Grid.Column="2" Fill="{ThemeResource SliderTickmarkOutsideBackgroundThemeBrush}" HorizontalAlignment="Left" Margin="2,0,0,0"
+                                             Grid.Row="0" Grid.RowSpan="3" Visibility="Collapsed" Width="{ThemeResource SliderOutsideTickBarThemeHeight}"/>
+                                    <Thumb x:Name="VerticalThumb" AutomationProperties.AccessibilityView="Raw"
+                                           Grid.Column="1" DataContext="{TemplateBinding Value}" Height="{ThemeResource SliderTrackThemeHeight}" Grid.Row="1" Style="{StaticResource SliderThumbStyle}" Width="{ThemeResource SliderTrackThemeHeight}"/>
+                                    <Rectangle x:Name="VerticalBorder" Grid.Column="1" Grid.Row="0" Grid.RowSpan="3" Stroke="{TemplateBinding BorderBrush}" StrokeThickness="{TemplateBinding BorderThickness}"/>
+                                    <Rectangle x:Name="FocusVisualWhiteVertical" Grid.ColumnSpan="3" Grid.Column="0"
+                                               IsHitTestVisible="False" Opacity="0"
+                                               Grid.Row="0" Grid.RowSpan="3" StrokeDashOffset="1.5" StrokeEndLineCap="Square" Stroke="{ThemeResource FocusVisualWhiteStrokeThemeBrush}" StrokeDashArray="1,1"/>
+                                    <Rectangle x:Name="FocusVisualBlackVertical" Grid.ColumnSpan="3" Grid.Column="0"
+                                               IsHitTestVisible="False" Opacity="0"
+                                               Grid.Row="0" Grid.RowSpan="3" StrokeDashOffset="0.5" StrokeEndLineCap="Square" Stroke="{ThemeResource FocusVisualBlackStrokeThemeBrush}" StrokeDashArray="1,1"/>
                                 </Grid>
                             </Grid>
                         </Grid>
@@ -229,52 +249,54 @@
                 </Setter.Value>
             </Setter>
             <Setter Property="Width" Value="Auto"/>
-            <Setter Property="Height" Value="150"/>
+            <Setter Property="Height" Value="250"/>
         </Style>
         <SolidColorBrush x:Key="MainColor" Color="#FF67914B"/>
     </UserControl.Resources>
 
-    <Grid>
+    <Grid Margin="0,0,-143,-11">
         <Grid.RowDefinitions>
-            <RowDefinition Height="31*"/>
-            <RowDefinition Height="122*"/>
+            <RowDefinition Height="30*"/>
+            <RowDefinition Height="70*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="146"/>
-            <ColumnDefinition/>
-            <ColumnDefinition Width="146"/>
+            <ColumnDefinition Width="45*"/>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="45*"/>
         </Grid.ColumnDefinitions>
-        <Border HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="1" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin" Height="163" Width="146">
-            <Button x:Name="horas"  FontSize="72"  FontWeight="SemiBold" Background="{x:Null}" BorderBrush="{x:Null}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" CharacterSpacing="455" Foreground="White" Margin="0" Style="{StaticResource ButtonStyleLeftAlign}" Content="{Binding Value, Converter={StaticResource DoubleToText}, ElementName=slider}">
+        <Border Grid.Row="1">
+            <Button FontSize="72" Background="{x:Null}" BorderBrush="{x:Null}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" CharacterSpacing="480" Foreground="White" Margin="0" Style="{StaticResource ButtonStyleLeftAlign}" Content="{Binding Value, Converter={StaticResource DoubleToText}, ElementName=Slider}">
                 <Button.Flyout>
-                    <Flyout>
+                    <Flyout Placement="Right">
+                        <Grid>
+                            <StackPanel Margin="0,0,0,14">
+                                <TextBlock x:Name="TextBlockValue1Label_Copy" FontFamily="Segoe UI" TextWrapping="Wrap"  FontSize="22" FontWeight="SemiBold" Foreground="#FF4F534C" SelectionHighlightColor="#FF33AE18" Margin="0" VerticalAlignment="Top" Text="{Binding Value1Label}"/>
+                                <Slider x:Name="Slider" Style="{StaticResource SliderStylelarge}" Value="{Binding Value1}" Maximum="{Binding Maxvalue1}" LargeChange="1" Minimum="1" Height="60" Width="200" Background="{StaticResource MainColor}" Foreground="{StaticResource MainColor}" Margin="0,14,0,0"/>
+                            </StackPanel>
+                        </Grid>
+                    </Flyout>
+                </Button.Flyout>
+            </Button>
+        </Border>
+        <Border CornerRadius="12" Grid.Column="2" Grid.Row="1" >
+            <Button Content="{Binding Value, Converter={StaticResource DoubleToText1}, ElementName=Slider1}" Foreground="White"  FontSize="72" Background="{x:Null}"
+        		BorderBrush="{x:Null}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Style="{StaticResource ButtonStyleLeftAlign}" CharacterSpacing="500">
+                <Button.Flyout>
+                    <Flyout FlyoutPresenterStyle="{StaticResource FlyoutPresenterStyleB4U}" Placement="Right" >
                         <StackPanel Width="200">
-                            <TextBlock TextWrapping="Wrap"  Foreground="Gray" FontSize="24" SelectionHighlightColor="Green"><Run Text=" horas"/>
-                            </TextBlock>
-                            <Slider x:Name="slider" Style="{StaticResource SliderStylelarge}" Value="{Binding Value1}" Maximum="{Binding Maxvalue1}" LargeChange="1" Margin="0,12,0,0" Minimum="1" Height="60" Width="200" Background="{StaticResource MainColor}" Foreground="Green"/>
+                            <TextBlock x:Name="TextBlockValue1Label_Copy1" FontFamily="Segoe UI" TextWrapping="Wrap"  FontSize="22" FontWeight="SemiBold" Foreground="#FF4F534C" SelectionHighlightColor="#FF33AE18" Margin="0" VerticalAlignment="Top" Text="{Binding Value2Label}"/>
+                            <Slider x:Name="Slider1"  Margin="0,12,0,0" Style="{StaticResource SliderStylelarge}" Value="{Binding Value2}" Maximum="{Binding Maxvalue2}" LargeChange="1" Height="60" Width="200" Foreground="{StaticResource MainColor}"/>
                         </StackPanel>
                     </Flyout>
                 </Button.Flyout>
             </Button>
         </Border>
-        <Border HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="2" Grid.Row="1" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin" CornerRadius="12" >
-            <Button x:Name="minutos" Content="{Binding Value, Converter={StaticResource DoubleToText1}, ElementName=slider1}" Foreground="White"  FontSize="72" Background="{x:Null}" FontWeight="SemiBold" BorderBrush="{x:Null}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Style="{StaticResource ButtonStyleLeftAlign}" CharacterSpacing="455">
-                <Button.Flyout>
-                    <Flyout FlyoutPresenterStyle="{StaticResource FlyoutPresenterStyleB4U}" >
-                        <StackPanel Width="200">
-                            <TextBlock TextWrapping="Wrap" Text="minutos" Foreground="Gray"  FontSize="24" SelectionHighlightColor="Green"/>
-                            <Slider x:Name="slider1"  Margin="0,12,0,0" Style="{StaticResource SliderStylelarge}" Value="{Binding Value2}" Maximum="{Binding Maxvalue2}" LargeChange="1" Height="60" Width="200" Foreground="Green"/>
-                        </StackPanel>
-                    </Flyout>
-                </Button.Flyout>
-            </Button>
-        </Border>
-        <StackPanel Margin="0,31,0,30" Grid.Column="1" Orientation="Vertical" Grid.Row="1" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin" VerticalAlignment="Center">
-            <Rectangle Width="20" Height="20" RadiusX="8" RadiusY="8" Fill="{StaticResource MainColor}" Margin="7,0,6,0"/>
-            <Rectangle Width="20" Height="20" RadiusX="8" RadiusY="8" Fill="{StaticResource MainColor}" Margin="7,6,6,0"/>
+        <StackPanel Margin="0" Grid.Column="1" Orientation="Vertical" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Rectangle Width="10" Height="10" RadiusX="8" RadiusY="8" Fill="{StaticResource MainColor}" Margin="0,0,6,0"/>
+            <Rectangle Width="10" Height="10" RadiusX="8" RadiusY="8" Fill="{StaticResource MainColor}" Margin="0,6,6,0"/>
         </StackPanel>
-        <TextBlock TextWrapping="Wrap"  FontSize="30"  d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin, TopPosition, BottomPosition" FontWeight="SemiBold" Foreground="#FF9DA299" Margin="23,0" Text="HORAS"/>
-        <TextBlock TextWrapping="Wrap" Text="MINUTOS" FontSize="28" Grid.Column="2" FontWeight="SemiBold" Foreground="#FF9DA299" Margin="7,0" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin"/>
+        <TextBlock x:Name="TextBlockValue1Label" FontFamily="Segoe UI" TextWrapping="Wrap"  FontSize="30" FontWeight="SemiBold" Foreground="#FF9DA299" Text="{Binding Value1Label, ElementName=userControl}" HorizontalAlignment="Center" SelectionHighlightColor="#FF33AE18" Margin="0" Width="0"/>
+        <TextBlock x:Name="TextBlockValue2Label"  FontFamily="Segoe UI"  TextWrapping="Wrap" Text="{Binding Value2Label, ElementName=userControl}" FontSize="28" FontWeight="SemiBold" Foreground="#FF9DA299" SelectionHighlightColor="#FF52C331" Margin="0" Grid.Column="2" HorizontalAlignment="Center" Width="0"/>
 
     </Grid>
 </UserControl>
