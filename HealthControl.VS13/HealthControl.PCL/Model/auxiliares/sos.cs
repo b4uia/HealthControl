@@ -1,19 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace HealthControl.PCL.Model.Auxiliares
+﻿namespace HealthControl.PCL.Model.Auxiliares
 {
     public class Sos
     {
-        public string mensagem { get; set; }
-        public string latitude { get; set; }
-        public string longitude { get; set; }
-        public string cidade { get; set; }
-        public string pais { get; set; }
-        public string rua { get; set; }
+        public string Mensagem { get; set; }
+        public string Latitude { get; set; }
+        public string Longitude { get; set; }
+        public string Cidade { get; set; }
+        public string Pais { get; set; }
+        public string Rua { get; set; }
 
     }
 }

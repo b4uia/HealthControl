@@ -23,7 +23,7 @@
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\bin\Debug\HealthControl.Tablet.exe">
       <PackagePath>HealthControl.Tablet.exe</PackagePath>
-      <Modified>2014-02-07T12:58:17.428</Modified>
+      <Modified>2014-02-07T13:07:46.413</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\packages\MvvmLightLibs.4.2.30.0\lib\netcore45\GalaSoft.MvvmLight.Extras.Win8.dll">
       <PackagePath>GalaSoft.MvvmLight.Extras.Win8.dll</PackagePath>
@@ -63,11 +63,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2014-02-07T12:55:12.785</Modified>
+      <Modified>2014-02-07T13:07:46.214</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\bin\Debug\Controls\TimePicker\TimePicker.xbf">
       <PackagePath>Controls\TimePicker\TimePicker.xbf</PackagePath>
-      <Modified>2014-02-07T12:58:17.240</Modified>
+      <Modified>2014-02-07T13:07:46.217</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
@@ -75,7 +75,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\HealthControl.Tablet\bin\Debug\Views\PaginaAlarmes.xbf">
       <PackagePath>Views\PaginaAlarmes.xbf</PackagePath>
-      <Modified>2014-02-07T12:38:59.529</Modified>
+      <Modified>2014-02-07T13:07:46.220</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xico\Documents\GitHub\Phoenix\HealthControl.VS13\packages\WinRTXamlToolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\AnimatingContainer.xbf">
       <PackagePath>WinRTXamlToolkit\Controls\AnimatingContainer.xbf</PackagePath>
